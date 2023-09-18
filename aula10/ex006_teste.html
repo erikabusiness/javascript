@@ -7,12 +7,11 @@
     <style>
         #area {
             font: 15pt arial;
-            background-color: greenyellow;
-            color: rebeccapurple;
+            background-color: aquamarine;
             width: 200px;
             height: 200px;
             line-height: 200px;
-            text-align: center;
+            text-align: center;    
         }
     </style>
 </head>
@@ -20,26 +19,22 @@
     <div id="area">
         Interaja...
     </div>
-
     <script>
         var a = document.getElementById('area')
-        //aqui estou pegando o elemento com ID area e atribuindo ele à variável 'a'
+
         a.addEventListener('click', clicar)
         a.addEventListener('mouseenter', entrar)
         a.addEventListener('mouseout', sair)
+
         function clicar() {
             a.innerText = 'Clicou!'
-            a.style.backgroundColor = 'pink'
         }
         function entrar() {
-            a.innerText = 'Entrou!'
-            a.style.backgroundColor = 'orange'
+            a.innerHTML = 'Entrou!'
         }
-        function sair() {
-            a.innerText = 'Saiu!'
-            a.style.backgroundColor = 'red'
-            a.style.color = 'white'
+        function sair(){
+            a.innerHTML='Saiu'
         }
-    </script>  
+    </script>
 </body>
 </html>
