@@ -1,9 +1,6 @@
-let num = 4
-
-if (num % 2 == 0) {
-    console.log("O numero é par")
-} else {
-    console.log ("o número não é par")
+var vel = 80.5
+console.log(`A velocidade é ${vel}`)
+if (vel > 80) {
+    console.log("Você foi multado!")
 }
-
-console.log(`O numero é ${num % 2 == 0 ? 'par' : 'impar'}.`) /** IF TERNARIO */
+console.log(`Dirija com cuidado!`)
