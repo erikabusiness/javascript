@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculador de Idade</title>
+</head>
+<body>
+    <!-- id e class estão escritas todas e lowcase
+    variaveis em camelcase -->
+    <header><h1>Verificador de Idade</h1></header>
+
+    <main>
+        <p>Ano de nascimento: <input type="number" name="" id="txtyear" min="0"></p>
+        <p>Sexo: 
+            <input type="radio" name="sex" id="masculino"> 
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="sex" id="feminino">
+            <label for="feminino">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </p>
+
+        <p id="preencha">Preencha os dados para obter o resultado!</p>
+        <img src="#" alt="" id="imgid">
+        
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: burlywood;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="container" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> 
+        Interaja...
+    </h1>
+
+    <script>
+
+        function entrar() {
+            let container = document.querySelector('#container')
+            container.style.backgroundColor = 'pink'
+            container.innerHTML = 'Entrou'
+        }
+        function sair() {
+            let container = document.querySelector('#container')
+            container.style.backgroundColor = 'orange'
+            container.innerHTML = 'Saiu'
+        }
+        function clicar() {
+            let container = document.querySelector('#container')
+            container.style.backgroundColor = 'blue'
+            container.innerHTML = 'Clicou'
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    size: 100%;
+    text-align: center;
+    background-color: cornflowerblue;
+    display: grid;
+    place-content: center;
+    align-items: center;
+}
+header{
+    color: antiquewhite;
+    margin: 20px;
+}
+#container {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.112);
+    width: 450px;
+    height: 400px;
+}
+#pmain {
+    padding: 10px;
+}
+#imgmain {
+    border-radius: 50%;
+    width: 300px;
+    
+}
+footer {
+    color: whitesmoke;
+    margin: 20px;
+}

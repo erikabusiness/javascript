@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{  
+    margin: 0;
+    padding: 0; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    padding-top: 100px;
+    min-height: 100vh; 
+    background-color: burlywood;
+    size: 100%; 
+
+}
+header > h1 {
+    color: whitesmoke;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#container {
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 500px;
+    border-radius: 15px; 
+    margin: 0 auto;
+}
+#container > p {
+    padding: 10px;
+}
+#seltab {
+    width: 150px;
+}
+footer {
+    margin: 10px;
+    color: antiquewhite;
+    text-align: center;
+}
+

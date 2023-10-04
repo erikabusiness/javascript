@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/** {
+    margin: 0;
+    padding: 0;
+} */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #b184da;
+    size: 100%;
+    display: grid;
+    place-items: center;
+}
+header > h1 {
+    color: antiquewhite;
+}
+main {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10 10 rgba(0, 0, 0, 0.553);
+}
+#imgid {
+    border-radius: 50%;
+    width: 300px;
+}
+img {
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+}
